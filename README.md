@@ -1,6 +1,6 @@
 # Small-Business-SQL-Script
-This was a class project to build and manipulate a small business database. 
 
+This was a class project to build and manipulate a small business database. 
 
 This database consisted of 8 tables 
   1.	Customers
@@ -21,3 +21,6 @@ The project consisted
   6.	Views
   7.	Triggers
   8.	Procedures
+
+
+The script contains all information about the creation and queries made through0out the project, the data is not included.
