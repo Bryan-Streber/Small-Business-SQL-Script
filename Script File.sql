@@ -807,5 +807,4 @@ from products
 where unit_price BETWEEN @between_1 and @between_2 
 end;
 
-/* End Script 
-Have a great day! */
+/* End Script  */
