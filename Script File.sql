@@ -2,7 +2,7 @@
 USE master
 GO
 
-PRINT 'Droping Cus_orders database...'
+PRINT 'Dropping Cus_orders database...'
 GO
 
 IF EXISTS (
@@ -592,7 +592,7 @@ BEGIN
 			FROM order_details
 			INNER JOIN products ON products.product_id = order_details.product_id
 			INNER JOIN inserted ON inserted.product_id = products.product_id
-			WHERE (inserted.quantity) > products.quantity_in_Stock
+			WHERE (inserted.quantity) >= products.quantity_in_Stock
 			)
 	BEGIN
 		ROLLBACK TRANSACTION
